@@ -33,7 +33,7 @@ export default async function handler(
       tokens: [
         {
           id: action_id,
-          address: process.env.XP_TOKEN_ID as string,
+          address: process.env.NEXT_PUBLIC_XP_TOKEN_ID as string,
           type: RewardType.XP_TOKEN,
           activityType: ActivityType.ACTION,
           amount: toWei("10"),
