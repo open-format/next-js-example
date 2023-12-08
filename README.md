@@ -7,7 +7,7 @@ The most basic implementation of OPENFORMAT using NextJS.
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/open-format/examples
+git clone https://github.com/open-format/next-js-example.git
 ```
 
 2. go to the project root:
