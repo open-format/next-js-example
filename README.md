@@ -13,7 +13,7 @@ git clone https://github.com/open-format/next-js-example.git
 2. go to the project root:
 
 ```bash
-cd examples/next-js-example
+cd next-js-example
 ```
 
 3. Install the dependencies:
