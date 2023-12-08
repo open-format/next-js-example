@@ -1,5 +1,6 @@
 {
-  "name": "next-js-example",
+  "name": "openformat-next-js-example",
+  "author": "dev@openformat.tech",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,16 +10,21 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@openformat/react": "^1.3.0-dev-12e705d",
+    "ethers": "^5",
+    "next": "14.0.3",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.0.3"
+    "react-dom": "^18"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
-    "eslint-config-next": "14.0.3"
+    "eslint-config-next": "14.0.3",
+    "typescript": "^5"
   }
 }
